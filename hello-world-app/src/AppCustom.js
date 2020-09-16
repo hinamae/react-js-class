@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 import HelloWorld from './HelloWorld';
+import AboutMe from './AboutMe';
 
 function AppCustom(){
 
     return(
-        <div className="App">
+        <div className="AppCustom">
             <HelloWorld />
+            <AboutMe />
         </div>
     )
 }
